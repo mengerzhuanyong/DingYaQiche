@@ -2,9 +2,9 @@
 
 import React, { Component } from 'react'
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
-import NavigationBar from '../component/NavigationBar'
-import DropDownMenu from '../component/DropdownMenu';
-import Container from '../component/Container';
+import NavigationBar from '../../component/common/NavigationBar'
+import DropDownMenu from '../../component/common/DropdownMenu';
+import Container from '../../component/common/Container';
 
 class Setting extends Component {
 

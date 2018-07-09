@@ -3,8 +3,8 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableHighlight } from 'react-native';
 import PropTypes from 'prop-types'
-import { fontSize, scaleSize, isEmpty } from '../util/Tool';
-import Theme from '../config/Theme';
+import { fontSize, scaleSize, isEmpty } from '../../util/Tool';
+import Theme from '../../config/Theme';
 
 
 class AlertContent extends React.PureComponent {

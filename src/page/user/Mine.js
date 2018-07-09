@@ -1,10 +1,10 @@
 //import liraries
 import React, { Component } from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
-import NavigationBar from '../component/NavigationBar'
-import FlatListView from '../component/FlatListView'
-import SectionListView from '../component/SectionListView';
-import Container from '../component/Container';
+import NavigationBar from '../../component/common/NavigationBar'
+import FlatListView from '../../component/common/FlatListView'
+import SectionListView from '../../component/common/SectionListView';
+import Container from '../../component/common/Container';
 class Mine extends Component {
 
     constructor(props) {

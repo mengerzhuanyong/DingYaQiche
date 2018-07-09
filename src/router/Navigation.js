@@ -5,7 +5,7 @@ import SplashScreen from 'react-native-splash-screen'
 import Nav from './RouterConfig'
 
 
-class Navigation extends React.PureComponent {
+export default class Navigation extends React.PureComponent {
 
     componentDidMount() {
         SplashScreen.hide();
@@ -13,7 +13,7 @@ class Navigation extends React.PureComponent {
 
     _captureRef = (v) => {
         this.navigationRef = v
-    }
+    };
 
     render() {
         return (
@@ -23,12 +23,10 @@ class Navigation extends React.PureComponent {
         );
     }
 }
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: Theme.pageBackgroundColor,
     },
 });
-
-
-export default Navigation;

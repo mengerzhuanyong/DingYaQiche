@@ -2,7 +2,7 @@
 import { Platform, Text } from 'react-native'
 import { scaleSize, fontSize, isMobile, checkMobile, checkPassword, isEmpty, containsChinese } from '../util/Tool'
 import Theme from './Theme'
-import Images from '../asset/index'
+import Images from './ImagesManager'
 import { addCustomProps } from '../util/addCustomProps'
 import JShareModule from 'jshare-react-native';
 import XPay from 'react-native-puti-pay';

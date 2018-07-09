@@ -6,12 +6,12 @@
 'use strict';
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, } from 'react-native';
-import NavigationBar from '../component/NavigationBar';
-import Container from '../component/Container';
-import SpinnerLoading from '../component/SpinnerLoading';
-import ChatPage from '../component/Chat1/ChatPage'
-import ChatManager from '../component/Chat1/ChatManager'
-import MessagesManager from '../component/Chat1/MessagesManager';
+import NavigationBar from '../../component/common/NavigationBar';
+import Container from '../../component/common/Container';
+import SpinnerLoading from '../../component/common/SpinnerLoading';
+import ChatPage from '../../component/chat/ChatPage'
+import ChatManager from '../../component/chat/ChatManager'
+import MessagesManager from '../../component/chat/MessagesManager';
 
 class Chat extends React.PureComponent {
 

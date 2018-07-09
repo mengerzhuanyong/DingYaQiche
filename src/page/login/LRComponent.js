@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import { Button } from 'teaset';
 import PropTypes from 'prop-types'
-import SpinnerLoading from '../../component/SpinnerLoading'
+import SpinnerLoading from '../../component/common/SpinnerLoading'
 import moduleName from 'jshare-react-native';
 import { checkMobile, checkPassword } from '../../util/Tool';
 

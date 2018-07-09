@@ -1,20 +1,20 @@
 //import liraries
 import React, { Component } from 'react'
 import { Animated, ScrollView, StyleSheet, Text, View, Image, Alert, TextInput } from 'react-native'
-import NavigationBar from '../component/NavigationBar'
-import SegmentedView from '../component/SegmentedView/index'
-import ImageView from '../component/ImageView'
+import NavigationBar from '../../component/common/NavigationBar'
+import SegmentedView from '../../component/segmentedView/index'
+import ImageView from '../../component/common/ImageView'
 import { inject, observer } from 'mobx-react'
 import { Button } from 'teaset'
-import FlatListView from '../component/FlatListView'
-import AreaContent from '../component/AreaContent'
-import Container from '../component/Container';
-import Countdown from '../component/Countdown';
+import FlatListView from '../../component/common/FlatListView'
+import AreaContent from '../../component/common/AreaContent'
+import Container from '../../component/common/Container';
+import Countdown from '../../component/common/Countdown';
 import { action } from 'mobx';
 import SyanImagePicker from 'react-native-syan-image-picker';
 import ImagePicker from 'react-native-image-picker';
-import PayManager from '../config/PayManager'
-import Stepper from '../component/Stepper'
+import PayManager from '../../config/PayManager'
+import Stepper from '../../component/common/Stepper'
 import { QRscanner } from 'react-native-qr-scanner';
 
 

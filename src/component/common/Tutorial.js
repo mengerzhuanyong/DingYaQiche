@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Modal, TouchableWithoutFeedback, TouchableOpacity, Image } from 'react-native';
 import PropTypes from 'prop-types'
-import Images from '../assets';
+import Images from '../../config/ImagesManager';
 
 class Tutorial extends React.PureComponent {
 

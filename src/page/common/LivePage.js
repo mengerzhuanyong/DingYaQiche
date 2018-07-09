@@ -6,12 +6,12 @@
 'use strict';
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import NavigationBar from '../component/NavigationBar';
-import Container from '../component/Container';
-import SpinnerLoading from '../component/SpinnerLoading';
-import LivePlayer from '../component/Live/index';
-import ChatManager from '../component/Live/ChatGroup/ChatManager'
-import ChatConstants from '../component/Live/ChatGroup/Constants';
+import NavigationBar from '../../component/common/NavigationBar';
+import Container from '../../component/common/Container';
+import SpinnerLoading from '../../component/common/SpinnerLoading';
+import LivePlayer from '../../component/live/index';
+import ChatManager from '../../component/live/chatGroup/ChatManager'
+import ChatConstants from '../../component/live/chatGroup/Constants';
 
 class LivePage extends React.PureComponent {
 

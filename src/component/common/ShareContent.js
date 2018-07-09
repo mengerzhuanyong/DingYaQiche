@@ -1,10 +1,10 @@
 //import liraries
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
-import Images from '../asset/index';
-import { fontSize, scaleSize } from '../util/Tool';
+import Images from '../../config/ImagesManager';
+import { fontSize, scaleSize } from '../../util/Tool';
 
-import Theme from '../config/Theme'
+import Theme from '../../config/Theme'
 
 const ShareSource = [
     { actionTitle: '微信好友', actionImage: Images.icon_tabbar_home_cur, type: 1 },

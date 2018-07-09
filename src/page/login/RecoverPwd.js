@@ -8,7 +8,7 @@ import {
     TouchableOpacity
 } from 'react-native';
 import { Button } from 'teaset';
-import NavigationBar from '../../component/NavigationBar'
+import NavigationBar from '../../component/common/NavigationBar'
 // create a component
 class RecoverPwd extends React.PureComponent {
     constructor(props) {

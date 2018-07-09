@@ -7,8 +7,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import SplashScreen from 'react-native-splash-screen'
-import Container from '../component/Container';
-import Navigation from '../router/Navigation';
+import Container from '../../component/common/Container';
+import Navigation from '../../router/Navigation';
 
 // 处理推送，导航,引导页等其他的功能
 class Main extends React.PureComponent {

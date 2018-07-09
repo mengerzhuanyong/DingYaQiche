@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
 import { Wheel, Button } from 'teaset';
-import { fontSize } from '../util/Tool'
-import Theme from '../config/Theme'
+import { fontSize } from '../../util/Tool'
+import Theme from '../../config/Theme'
 
 // create a component
 class AreaContent extends React.PureComponent {
@@ -11,7 +11,7 @@ class AreaContent extends React.PureComponent {
     constructor(props) {
         super(props)
         this.data = []
-        this.data = require('../asset/json/area.json')
+        this.data = require('../../asset/json/area.json')
         let len = this.data.length;
         let province = [], city = [], area = []
         this.data.map((item, index) => {

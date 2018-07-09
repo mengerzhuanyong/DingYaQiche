@@ -3,8 +3,8 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { ActionSheet, Overlay, Label } from 'teaset';
 import { fontSize, bouncer } from '../util/Tool';
-import AreaContent from '../component/AreaContent';
-import ShareContent from '../component/ShareContent';
+import AreaContent from '../component/common/AreaContent';
+import ShareContent from '../component/common/ShareContent';
 import Theme from './Theme';
 
 class ActionsManager {

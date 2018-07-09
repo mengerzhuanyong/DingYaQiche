@@ -2,14 +2,14 @@
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation'
 import { configRouter, tabOptions } from './RouterTool';
 import StackViewStyleInterpolator from 'react-navigation/src/views/StackView/StackViewStyleInterpolator'
-import Home from '../page/Home'
-import Mine from '../page/Mine'
-import Setting from '../page/Setting'
+import Home from '../page/home/Home'
+import Mine from '../page/user/Mine'
+import Setting from '../page/user/Setting'
 import LoginAndRegistered from '../page/login/LoginAndRegistered'
 import RecoverPwd from '../page/login/RecoverPwd'
-import VideoPage from '../page/VideoPage';
-import Chat from '../page/Chat';
-import LivePage from '../page/LivePage';
+import VideoPage from '../page/common/VideoPage';
+import Chat from '../page/common/Chat';
+import LivePage from '../page/common/LivePage';
 
 
 const Tab = createBottomTabNavigator({
@@ -57,7 +57,7 @@ const Nav = createStackNavigator(configRouter({
     Chat: { screen: Chat },
     LivePage: { screen: LivePage },
 }), {
-        initialRouteName: 'LivePage',
+        initialRouteName: 'Tab',
         cardStyle: {
             shadowOpacity: 0,
             shadowRadius: 0,
@@ -72,9 +72,6 @@ const Nav = createStackNavigator(configRouter({
                 screenInterpolator: (sceneProps) => {
                     return StackViewStyleInterpolator.forHorizontal(sceneProps)
                 },
-                // containerStyle: {
-                //     backgroundColor: 'black',
-                // }
             }
         }
     });
